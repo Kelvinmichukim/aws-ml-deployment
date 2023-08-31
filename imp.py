@@ -1,3 +1,6 @@
+
+#This code imports the required libraries and defines the environment variables you need to prepare the data, and train and deploy the ML model.
+
 # import libraries
 import boto3, re, sys, math, json, os, sagemaker, urllib.request
 from sagemaker import get_execution_role

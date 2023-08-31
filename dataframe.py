@@ -1,3 +1,6 @@
+
+#Download the data to your SageMaker instance and load the data into a dataframe. 
+
 try:
   urllib.request.urlretrieve ("https://d1.awsstatic.com/tmt/build-train-deploy-machine-learning-model-sagemaker/bank_clean.27f01fbbdf43271788427f3682996ae29ceca05d.csv", "bank_clean.csv")
   print('Success: downloaded bank_clean.csv.')
